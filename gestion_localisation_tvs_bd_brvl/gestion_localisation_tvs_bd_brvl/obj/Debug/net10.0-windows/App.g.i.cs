@@ -58,7 +58,7 @@ namespace LocalisationStudio.Wpf {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/gestion_localisation_tvs_bd_brvl;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/gestion_localisation_tvs_bd_brvl;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
