@@ -1,5 +1,5 @@
 ﻿gestion_localisation_tvs_bd_brvl
-
+1.0.0.0
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_O
 D:\SVN\Eleves\tboda\Tools\LocalisationWPF\gestion_localisation_tvs_bd_brvl\gestion_localisation_tvs_bd_brvl\App.xaml
 11407045341
 
-9-2037965935
+11-2097634650
 206-381443163
 MainWindow.xaml;
 

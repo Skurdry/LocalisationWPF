@@ -8,23 +8,23 @@
     "net10.0-windows": []
   },
   "packageFolders": {
-    "C:\\Users\\Etudiant2\\.nuget\\packages\\": {},
+    "C:\\Users\\Etudiant1\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SVN\\Eleves\\LocalisationWPF\\gestion_localisation_tvs_bd_brvl\\gestion_localisation_tvs_bd_brvl\\gestion_localisation_tvs_bd_brvl.csproj",
+      "projectUniqueName": "D:\\SVN\\Eleves\\tboda\\Tools\\LocalisationWPF\\gestion_localisation_tvs_bd_brvl\\gestion_localisation_tvs_bd_brvl\\gestion_localisation_tvs_bd_brvl.csproj",
       "projectName": "gestion_localisation_tvs_bd_brvl",
-      "projectPath": "D:\\SVN\\Eleves\\LocalisationWPF\\gestion_localisation_tvs_bd_brvl\\gestion_localisation_tvs_bd_brvl\\gestion_localisation_tvs_bd_brvl.csproj",
-      "packagesPath": "C:\\Users\\Etudiant2\\.nuget\\packages\\",
-      "outputPath": "D:\\SVN\\Eleves\\LocalisationWPF\\gestion_localisation_tvs_bd_brvl\\gestion_localisation_tvs_bd_brvl\\obj\\",
+      "projectPath": "D:\\SVN\\Eleves\\tboda\\Tools\\LocalisationWPF\\gestion_localisation_tvs_bd_brvl\\gestion_localisation_tvs_bd_brvl\\gestion_localisation_tvs_bd_brvl.csproj",
+      "packagesPath": "C:\\Users\\Etudiant1\\.nuget\\packages\\",
+      "outputPath": "D:\\SVN\\Eleves\\tboda\\Tools\\LocalisationWPF\\gestion_localisation_tvs_bd_brvl\\gestion_localisation_tvs_bd_brvl\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Etudiant2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Etudiant1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
