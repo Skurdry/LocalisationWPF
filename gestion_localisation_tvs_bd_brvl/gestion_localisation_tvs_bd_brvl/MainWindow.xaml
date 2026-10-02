@@ -1,7 +1,7 @@
 <Window x:Class="LocalisationStudio.Wpf.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Localisation Studio" Width="1120" Height="740" MinWidth="920" MinHeight="580"
+        Title="THOMAS DE TOOLS " Width="1120" Height="740" MinWidth="920" MinHeight="580"
         Background="#F3F6FA" Foreground="{StaticResource Ink}" FontFamily="Segoe UI"
         Closing="Window_Closing">
     <Window.CommandBindings>
@@ -11,9 +11,9 @@
     </Window.CommandBindings>
     <DockPanel Margin="24">
         <StackPanel DockPanel.Dock="Top">
-            <TextBlock Text="LOCALISATION STUDIO" FontSize="12" FontWeight="Bold" Foreground="#187C83" />
-            <TextBlock Text="Un tableau. Toutes vos langues." FontSize="28" FontWeight="SemiBold" Margin="0,8,0,4" />
-            <TextBlock Text="Éditez vos traductions, puis exportez les données ou une classe prête à intégrer."
+            <TextBlock Text="TP TOOLS" FontSize="12" FontWeight="Bold" Foreground="#187C83" />
+            <TextBlock Text="thobleau(thomas+tableu)." FontSize="28" FontWeight="SemiBold" Margin="0,8,0,4" />
+            <TextBlock Text="outil de gestion de localisation avec WPF"
                        Foreground="#627387" Margin="0,0,0,22" />
             <WrapPanel Margin="0,0,0,14">
                 <Button Content="Nouveau" Command="ApplicationCommands.New" ToolTip="Ctrl+N" />
@@ -35,13 +35,7 @@
                 </WrapPanel>
             </Border>
         </StackPanel>
-        <Border DockPanel.Dock="Bottom" Background="White" Padding="12" Margin="0,12,0,0">
-            <StackPanel>
-                <TextBlock x:Name="StatusText" FontWeight="SemiBold" />
-                <TextBlock Text="Double-clic ou F2 pour éditer • Tab pour avancer • La dernière ligne permet un ajout • ID unique requis"
-                           FontSize="11" Foreground="#627387" Margin="0,4,0,0" />
-            </StackPanel>
-        </Border>
+        <Border DockPanel.Dock="Bottom" Background="White" Padding="12" Margin="0,12,0,0"/>
         <DataGrid x:Name="TranslationsGrid" AutoGenerateColumns="True" AutoGeneratingColumn="Grid_AutoGeneratingColumn"
                   CanUserAddRows="True" CanUserDeleteRows="True" CanUserReorderColumns="False"
                   SelectionMode="Extended" SelectionUnit="FullRow" IsReadOnly="False"
