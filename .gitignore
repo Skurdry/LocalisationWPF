@@ -29,3 +29,5 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+bin/
+obj/
