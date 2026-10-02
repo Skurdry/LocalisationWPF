@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "languages": [
+    "fr",
+    "en",
+    "ja"
+  ],
+  "entries": [
+    {
+      "id": "HELLO",
+      "values": {
+        "fr": "Bonjour",
+        "en": "Hello",
+        "ja": "こんにちは"
+      }
+    },
+    {
+      "id": "GOODBYE",
+      "values": {
+        "fr": "Au revoir",
+        "en": "Goodbye",
+        "ja": "さようなら"
+      }
+    },
+    {
+      "id": "MENU.SAVE",
+      "values": {
+        "fr": "Enregistrer",
+        "en": "Save",
+        "ja": "保存"
+      }
+    },
+    {
+      "id": "WELCOME",
+      "values": {
+        "fr": "Bienvenue, {0} !",
+        "en": "Welcome, {0}!",
+        "ja": "ようこそ、{0}！"
+      }
+    },
+    {
+      "id": "SPECIAL_CHARS",
+      "values": {
+        "fr": "Été ; « français » & <XML> — \"citation\"",
+        "en": "Comma, semicolon; and \"quotes\"",
+        "ja": "日本語 😀"
+      }
+    },
+    {
+      "id": "MULTILINE",
+      "values": {
+        "fr": "Première ligne\nDeuxième ligne",
+        "en": "First line\nSecond line",
+        "ja": "一行目\n二行目"
+      }
+    },
+    {
+      "id": "EMPTY_ALLOWED",
+      "values": {
+        "fr": "",
+        "en": "",
+        "ja": ""
+      }
+    }
+  ]
+}

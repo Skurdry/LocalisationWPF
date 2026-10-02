@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<localization version="1">
+  <languages>
+    <language code="fr" />
+    <language code="en" />
+    <language code="ja" />
+  </languages>
+  <entries>
+    <entry id="HELLO">
+      <value language="fr">Bonjour</value>
+      <value language="en">Hello</value>
+      <value language="ja">こんにちは</value>
+    </entry>
+    <entry id="GOODBYE">
+      <value language="fr">Au revoir</value>
+      <value language="en">Goodbye</value>
+      <value language="ja">さようなら</value>
+    </entry>
+    <entry id="MENU.SAVE">
+      <value language="fr">Enregistrer</value>
+      <value language="en">Save</value>
+      <value language="ja">保存</value>
+    </entry>
+    <entry id="WELCOME">
+      <value language="fr">Bienvenue, {0} !</value>
+      <value language="en">Welcome, {0}!</value>
+      <value language="ja">ようこそ、{0}！</value>
+    </entry>
+    <entry id="SPECIAL_CHARS">
+      <value language="fr">Été ; « français » &amp; &lt;XML&gt; — "citation"</value>
+      <value language="en">Comma, semicolon; and "quotes"</value>
+      <value language="ja">日本語 😀</value>
+    </entry>
+    <entry id="MULTILINE">
+      <value language="fr">Première ligne
+Deuxième ligne</value>
+      <value language="en">First line
+Second line</value>
+      <value language="ja">一行目
+二行目</value>
+    </entry>
+    <entry id="EMPTY_ALLOWED">
+      <value language="fr" />
+      <value language="en" />
+      <value language="ja" />
+    </entry>
+  </entries>
+</localization>

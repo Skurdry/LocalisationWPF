@@ -1,0 +1,11 @@
+﻿"ID";"fr";"en";"ja"
+"HELLO";"Bonjour";"Hello";"こんにちは"
+"GOODBYE";"Au revoir";"Goodbye";"さようなら"
+"MENU.SAVE";"Enregistrer";"Save";"保存"
+"WELCOME";"Bienvenue, {0} !";"Welcome, {0}!";"ようこそ、{0}！"
+"SPECIAL_CHARS";"Été ; « français » & <XML> — ""citation""";"Comma, semicolon; and ""quotes""";"日本語 😀"
+"MULTILINE";"Première ligne
+Deuxième ligne";"First line
+Second line";"一行目
+二行目"
+"EMPTY_ALLOWED";"";"";""

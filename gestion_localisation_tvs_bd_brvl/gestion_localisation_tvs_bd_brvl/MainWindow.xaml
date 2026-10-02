@@ -1,12 +1,62 @@
-﻿<Window x:Class="gestion_localisation_tvs_bd_brvl.MainWindow"
+<Window x:Class="LocalisationStudio.Wpf.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:gestion_localisation_tvs_bd_brvl"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Localisation Studio" Width="1120" Height="740" MinWidth="920" MinHeight="580"
+        Background="#F3F6FA" Foreground="{StaticResource Ink}" FontFamily="Segoe UI"
+        Closing="Window_Closing">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.New" Executed="New_Click" />
+        <CommandBinding Command="ApplicationCommands.Open" Executed="Open_Click" />
+        <CommandBinding Command="ApplicationCommands.Save" Executed="Save_Click" />
+    </Window.CommandBindings>
+    <DockPanel Margin="24">
+        <StackPanel DockPanel.Dock="Top">
+            <TextBlock Text="LOCALISATION STUDIO" FontSize="12" FontWeight="Bold" Foreground="#187C83" />
+            <TextBlock Text="Un tableau. Toutes vos langues." FontSize="28" FontWeight="SemiBold" Margin="0,8,0,4" />
+            <TextBlock Text="Éditez vos traductions, puis exportez les données ou une classe prête à intégrer."
+                       Foreground="#627387" Margin="0,0,0,22" />
+            <WrapPanel Margin="0,0,0,14">
+                <Button Content="Nouveau" Command="ApplicationCommands.New" ToolTip="Ctrl+N" />
+                <Button Content="Ouvrir…" Command="ApplicationCommands.Open" ToolTip="Ctrl+O · CSV, JSON ou XML" />
+                <Button Content="Enregistrer" Command="ApplicationCommands.Save" ToolTip="Ctrl+S · Projet JSON" />
+                <Button Content="Enregistrer sous…" Click="SaveAs_Click" />
+                <Button Content="Exporter…" Click="Export_Click" Background="#187C83" Foreground="White" />
+            </WrapPanel>
+            <Border Background="White" BorderBrush="#DFE6ED" BorderThickness="1" Padding="12" Margin="0,0,0,14">
+                <WrapPanel VerticalAlignment="Center">
+                    <TextBox x:Name="LanguageName" Width="110" Margin="0,0,8,0" ToolTip="Nom de langue : fr, en, de, fr-CA…"
+                             AutomationProperties.Name="Nouvelle langue" />
+                    <Button Content="Ajouter la langue" Click="AddLanguage_Click" />
+                    <ComboBox x:Name="LanguageSelector" Width="100" Margin="0,0,8,0" VerticalContentAlignment="Center"
+                              AutomationProperties.Name="Langue à supprimer" />
+                    <Button Content="Supprimer la langue" Click="RemoveLanguage_Click" />
+                    <Button Content="+ Ligne" Click="AddRow_Click" />
+                    <Button Content="− Lignes" Click="DeleteRows_Click" ToolTip="Supprime les lignes sélectionnées" />
+                </WrapPanel>
+            </Border>
+        </StackPanel>
+        <Border DockPanel.Dock="Bottom" Background="White" Padding="12" Margin="0,12,0,0">
+            <StackPanel>
+                <TextBlock x:Name="StatusText" FontWeight="SemiBold" />
+                <TextBlock Text="Double-clic ou F2 pour éditer • Tab pour avancer • La dernière ligne permet un ajout • ID unique requis"
+                           FontSize="11" Foreground="#627387" Margin="0,4,0,0" />
+            </StackPanel>
+        </Border>
+        <DataGrid x:Name="TranslationsGrid" AutoGenerateColumns="True" AutoGeneratingColumn="Grid_AutoGeneratingColumn"
+                  CanUserAddRows="True" CanUserDeleteRows="True" CanUserReorderColumns="False"
+                  SelectionMode="Extended" SelectionUnit="FullRow" IsReadOnly="False"
+                  AlternatingRowBackground="#F4F8FA" Background="White" BorderBrush="#DFE6ED"
+                  GridLinesVisibility="Horizontal" HorizontalGridLinesBrush="#E8EDF2"
+                  HeadersVisibility="All" RowHeaderWidth="26" ColumnHeaderHeight="40" MinRowHeight="34"
+                  EnableRowVirtualization="True" EnableColumnVirtualization="True">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#E7EEF4" />
+                    <Setter Property="Foreground" Value="#172D43" />
+                    <Setter Property="FontWeight" Value="SemiBold" />
+                    <Setter Property="Padding" Value="12,8" />
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+        </DataGrid>
+    </DockPanel>
 </Window>
