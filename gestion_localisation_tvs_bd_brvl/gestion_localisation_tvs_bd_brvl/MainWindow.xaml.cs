@@ -52,8 +52,6 @@ public partial class MainWindow : Window
     {
         var name = projectPath is null ? "Sans titre" : Path.GetFileName(projectPath);
         Title = $"{(dirty ? "* " : "")}{name} — Localisation Studio";
-        StatusText.Text = $"{table.DefaultView.Count} lignes · {languages.Count} langues · {name}" +
-            (dirty ? " · Modifications non enregistrées" : "");
     }
 
     private void Commit()

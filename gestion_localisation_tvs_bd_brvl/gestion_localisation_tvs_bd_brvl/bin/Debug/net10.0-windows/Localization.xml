@@ -1,0 +1,16 @@
+<localization version="1">
+  <languages>
+    <language code="fr" />
+    <language code="en" />
+  </languages>
+  <entries>
+    <entry id="play">
+      <value language="fr">PLay</value>
+      <value language="en">PLpakezg</value>
+    </entry>
+    <entry id="NEW_KEY_1">
+      <value language="fr">ghiosehg</value>
+      <value language="en">gbusdg</value>
+    </entry>
+  </entries>
+</localization>

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "entries": [
+    {
+      "id": "play",
+      "values": {
+        "fr": "PLay",
+        "en": "PLpakezg"
+      }
+    },
+    {
+      "id": "NEW_KEY_1",
+      "values": {
+        "fr": "ghiosehg",
+        "en": "gbusdg"
+      }
+    }
+  ]
+}

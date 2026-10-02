@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gestion_localisation_tvs_bd_brvl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caf93a0aad226a2b70ea4ce0245bef8cf060ce4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+302aa7dbe84f86510dee27f63ab213063c1b21cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("gestion_localisation_tvs_bd_brvl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gestion_localisation_tvs_bd_brvl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
